@@ -1,9 +1,9 @@
-LOCAL_PATH := device/Haier_MAXX/msm8625
+LOCAL_PATH := device/Haier-MAXX/msm8625
 
 USE_CAMERA_STUB := true
 
 # inherit from the proprietary version
--include vendor/Haier_MAXX/msm8625/BoardConfigVendor.mk
+-include vendor/Haier-MAXX/msm8625/BoardConfigVendor.mk
 
 TARGET_ARCH := arm
 TARGET_NO_BOOTLOADER := true

@@ -1,15 +1,15 @@
-LOCAL_PATH := device/Haier_MAXX/msm8625
+LOCAL_PATH := device/Haier-MAXX/msm8625
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
-$(call inherit-product-if-exists, vendor/Haier_MAXX/msm8625/msm8625-vendor.mk)
+$(call inherit-product-if-exists, vendor/Haier-MAXX/msm8625/msm8625-vendor.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/Haier_MAXX/msm8625/overlay
+DEVICE_PACKAGE_OVERLAYS += device/Haier-MAXX/msm8625/overlay
 
-LOCAL_PATH := device/Haier_MAXX/msm8625
+LOCAL_PATH := device/Haier-MAXX/msm8625
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 	LOCAL_KERNEL := $(LOCAL_PATH)/kernel
 else

@@ -8,7 +8,7 @@ PRODUCT_RELEASE_NAME := msm8625
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/Haier_MAXX/msm8625/device_msm8625.mk)
+$(call inherit-product, device/Haier-MAXX/msm8625/device_msm8625.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := msm8625
